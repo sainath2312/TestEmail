@@ -14,6 +14,9 @@
 		CECE3C5923FA712C00CBB6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE3C5723FA712C00CBB6CD /* LaunchScreen.storyboard */; };
 		CECE3C6423FA712C00CBB6CD /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE3C6323FA712C00CBB6CD /* TestTests.swift */; };
 		CECE3C6F23FA712C00CBB6CD /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE3C6E23FA712C00CBB6CD /* TestUITests.swift */; };
+		CECE3C7D23FA71FC00CBB6CD /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE3C7C23FA71FC00CBB6CD /* LoginService.swift */; };
+		CECE3C7F23FA720800CBB6CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE3C7E23FA720800CBB6CD /* User.swift */; };
+		CECE3C8123FA721F00CBB6CD /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE3C8023FA721F00CBB6CD /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CECE3C6A23FA712C00CBB6CD /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECE3C6E23FA712C00CBB6CD /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		CECE3C7023FA712C00CBB6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECE3C7C23FA71FC00CBB6CD /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		CECE3C7E23FA720800CBB6CD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CECE3C8023FA721F00CBB6CD /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				CECE3C4E23FA712B00CBB6CD /* AppDelegate.swift */,
 				CECE3C5023FA712B00CBB6CD /* ViewController.swift */,
+				CECE3C7C23FA71FC00CBB6CD /* LoginService.swift */,
+				CECE3C7E23FA720800CBB6CD /* User.swift */,
+				CECE3C8023FA721F00CBB6CD /* Utility.swift */,
 				CECE3C5223FA712B00CBB6CD /* Main.storyboard */,
 				CECE3C5523FA712C00CBB6CD /* Assets.xcassets */,
 				CECE3C5723FA712C00CBB6CD /* LaunchScreen.storyboard */,
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECE3C8123FA721F00CBB6CD /* Utility.swift in Sources */,
+				CECE3C7F23FA720800CBB6CD /* User.swift in Sources */,
 				CECE3C5123FA712B00CBB6CD /* ViewController.swift in Sources */,
+				CECE3C7D23FA71FC00CBB6CD /* LoginService.swift in Sources */,
 				CECE3C4F23FA712B00CBB6CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
